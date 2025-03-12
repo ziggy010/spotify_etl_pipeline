@@ -12,7 +12,7 @@ This project is an end-to-end ETL (Extract, Transform, Load) pipeline that pulls
 - **Automation**: Runs hourly with CloudWatch triggers and S3 event-driven Snowpipe.
 
 ## Architecture
-![Pipeline Architecture](architecture.webp)  
+![Pipeline Architecture](architecture.png)  
 
 1. **Spotify API**: Python script pulls raw data (e.g., album details).  
 2. **AWS S3**: Stores raw JSON (`raw_data/`) and transformed CSV (`transformed_data/`).  
